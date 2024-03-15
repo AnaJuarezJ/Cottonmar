@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
+    <title>Cottonmar</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+<header tabindex="0">
+  <a href="./index.html"><img src="./assets/logo.png" alt="Logo" class="logo"></a>
+    COTTONMAR
+</header>
+
+<!-- NAV -->
+<div id="nav-container">
+    <div class="bg"></div>
+    <div class="button" tabindex="0">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <div id="nav-content" tabindex="0">
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./index.html#about">Acerca de nosotros</a></li>
+        <li><a href="./index.html#services">Servicios</a></li>
+        <li><a href="./index.html#contact_form">Contáctanos</a></li>
+        <li class="small"><a href="mailto:cottonmar@gmail.com"><i class="fas fa-envelope"></i> cottonmar@gmail.com</a></li>
+        <li class="small"><a href="tel:+524446712928"><i class="fas fa-phone"></i> +52 444 671 2928</a></li>
+  
+      </ul>
+    </div>
+</div>
+
+<!-- SLIDER -->
+<div class="slider-container">
+    <div class="slider-wrapper">
+        <div class="slide"><img src="./assets/publicidad.png" alt="Slide 1"><div class="caption"><a href="./index.html#publicidad">Publicidad Integral</a></div></div>
+        <div class="slide"><img src="./assets/gestion.jpg" alt="Slide 2"><div class="caption"><a href="./index.html#gestion">Gestión Publicitaria</a></div></div>
+        <div class="slide"><img src="./assets/campanas.jpg" alt="Slide 3"><div class="caption"><a href="./index.html#campanas">Campañas Multimedios</a></div></div>
+        <div class="slide"><img src="./assets/artes.jpg" alt="Slide 4"><div class="caption"><a href="./index.html#artes">Artes Gráficas y Diseño</a></div></div>
+        <div class="slide"><img src="./assets/soluciones.jpg" alt="Slide 5"><div class="caption"><a href="./index.html#soluciones">Soluciones de Publicidad y Merchandising</a></div></div>
+        <!-- Agrega más slides según sea necesario -->
+    </div>
+    <div class="arrow arrow-left" onclick="prevSlide()">&#10094;</div>
+    <div class="arrow arrow-right" onclick="nextSlide()">&#10095;</div>
+    <div class="dots" id="dots-container"></div>
+</div>
+<br><br><br>
+
+
+<!-- ABOUT -->
+<div id="about" class="about-container">
+  <section class="about-section">
+    <div class="content">
+      <h2><span>Acerca de nosotros</span></h2>
+      <p>Cottonmar es una empresa líder en publicidad y comunicación, ofreciendo una amplia gama de servicios para satisfacer las necesidades del mercado. Especializada en estrategias publicitarias, desde diseño gráfico hasta investigación de mercado, Cottonmar se destaca por campañas en diversos medios como radio, televisión y eventos masivos. Ofrece servicios en artes gráficas, incluyendo fotografía, diseño y proyectos de decoración, garantizando una imagen coherente en cada campaña. Su versatilidad se refleja en la gestión de todo el proceso publicitario, desde la compra de materiales hasta la exportación. Con un equipo altamente capacitado y orientado a la satisfacción del cliente, Cottonmar se presenta como un socio confiable para empresas que buscan destacarse en el mercado con estrategias publicitarias innovadoras y efectivas. Con un equipo altamente capacitado y orientado a la satisfacción del cliente, Cottonmar se posiciona como un socio confiable para empresas que buscan destacarse en el mercado y alcanzar sus objetivos comerciales a través de estrategias publicitarias innovadoras y efectivas.</p>
+    </div>
+  </section>
+
+
+  <div class="mission-vision">
+    <section id="vision" class="vision-section">
+      <div class="content">
+        <h2><span>Visión</span></h2>
+        <p>En Cottonmar, nuestra misión es proporcionar soluciones integrales de publicidad y comunicación que impulsen el éxito de nuestros clientes. Nos comprometemos a ofrecer servicios de alta calidad, desde el diseño gráfico hasta la ejecución de campañas publicitarias en una variedad de medios, incluyendo impresos y electrónicos. Buscamos sobrepasar las expectativas de nuestros clientes mediante la creatividad, la innovación y un enfoque centrado en sus necesidades específicas. Nuestro objetivo es convertirnos en un socio confiable y de confianza, ayudando a nuestros clientes a alcanzar sus objetivos comerciales.</p>
+      </div>
+    </section>
+
+    <section id="mision" class="mission-section">
+      <div class="content">
+        <h2><span>Misión</span></h2>
+        <p>En Cottonmar, aspiramos a ser reconocidos como líderes en la industria de la publicidad y la comunicación, tanto a nivel nacional como internacional. Nos esforzamos por ser innovadores en la creación y ejecución de estrategias publicitarias, aprovechando las últimas tendencias y tecnologías para ofrecer resultados sobresalientes a nuestros clientes. Buscamos expandir nuestra presencia en el mercado, desarrollando relaciones sólidas y duraderas con nuestros clientes y colaboradores. Nuestra visión es ser un referente en el campo de la publicidad, conocidos por nuestra excelencia, integridad y compromiso con la satisfacción del cliente.</p>
+      </div>
+    </section>
+  </div>
+</div>
+<br><br><br>
+<!-- SERVICIOS -->
+<section id="services" class="about-container">
+<br>
+<br>
+<h2> <span>Nuestros servicios</span></h2> <br>
+<div id="servicios" class="blog-card">
+  <div class="meta">
+    <div class="photo" style="background-image: url(./assets/publicidad.png)"></div>
+    <ul class="details">
+      <li class="date">Desarrollo de estrategias publicitarias.</li>
+      <li class="date">Diseño gráfico y comunicación corporativa.</li>
+      <li class="date">Investigación de mercado y promoción de marca.</li>
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Publicidad Integral</h1>
+    <h2>Servicios</h2>
+    <p>Incluye servicios de publicidad, comunicación, diseño gráfico, promoción e investigación de mercado tanto en medios impresos como electrónicos.</p>
+  </div>
+</div><br><br>
+
+<div id="gestion" class="blog-card alt">
+  <div class="meta">
+    <div class="photo" style="background-image: url(./assets/gestion.jpg)"></div>
+    <ul class="details">
+      <li class="date">Producción y difusión de material publicitario.</li>
+      <li class="date">Realización de campañas publicitarias.</li>
+      <li class="date">Creación de documentos y contenido publicitario.</li>      
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Gestión Publicitaria</h1>
+    <h2>Productos y Servicios</h2>
+    <p>Realización de actividades relacionadas con la publicidad, mercadotecnia, propaganda y campañas publicitarias, incluyendo difusión, producción y realización de documentos publicitarios.</p>
+  </div>
+</div><br><br>
+
+<div id="campanas" class="blog-card">
+  <div class="meta">
+    <div class="photo" style="background-image: url(./assets/campanas.jpg)"></div>
+    <ul class="details">
+      <li class="date">Planificación y ejecución de campañas en radio y televisión.</li>
+      <li class="date">Publicidad en cines y eventos masivos.</li>
+      <li class="date">Diseño y colocación de anuncios y espectaculares.</li>
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Campañas Multimedios</h1>
+    <h2>Servicios</h2>
+    <p>Desarrollo y ejecución de campañas publicitarias en diversos medios de comunicación, como radio, televisión, cines, eventos masivos, anuncios y espectaculares.</p>
+  </div>
+</div><br><br>
+
+<div id="artes" class="blog-card alt">
+  <div class="meta">
+    <div class="photo" style="background-image: url(./assets/artes.jpg)"></div>
+    <ul class="details">
+      <li class="date">Impresión de materiales publicitarios.</li>
+      <li class="date">Creación de diseños gráficos y fotografía.</li>
+      <li class="date">Diseño de espacios y decoración comercial.</li>
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Artes Gráficas y Diseño</h1>
+    <h2>Servicios</h2>
+    <p>Ofrece servicios relacionados con artes gráficas, publicitarias, trabajos de fotografía, diseño, arquitectura, decoración, proyectos e impresión de diversos materiales.</p>
+  </div>
+</div><br><br>
+
+<div id="soluciones" class="blog-card">
+  <div class="meta">
+    <div class="photo" style="background-image: url(./assets/soluciones.jpg)"></div>
+    <ul class="details">
+      <li class="date">Compra, venta y distribución de productos publicitarios.</li>
+      <li class="date">Fabricación y maquila de artículos promocionales.</li>
+      <li class="date">Importación, exportación y rotulación de productos publicitarios.</li>
+    </ul>
+  </div>
+  <div class="description">
+    <h1>Soluciones de Publicidad y Merchandising</h1>
+    <h2>Servicios</h2>
+    <p>Incluye la oferta de servicios como la compra, venta, fabricación, distribución, maquila, diseño, importación, exportación, creación, rotulación e instalación de imágenes y artículos de publicidad</p>
+  </div>
+</div>
+
+</section>
+
+<br><br><br>
+
+<!-- CONTACTANOS -->
+<a href="./index.html#contact_form" class="btn-flotante"><i class="fas fa-envelope"></i> CONTÁCTANOS</a>
+
+<div id="contact_form" class="contact_form">
+  <div class="formulario">      
+    <h1>Contáctanos</h1>
+    <small>Escríbenos y en breve nos pondremos en contacto contigo</small>
+    
+    <form action="formulario.php" method="post" accept-charset="UTF-8">
+      <div class="input_container">
+        <label for="nombre" class="colocar_nombre">Nombre <span class="obligatorio">*</span></label>
+        <input type="text" name="introducir_nombre" id="nombre" required placeholder="Escribe tu nombre">
+      </div>
+
+      <div class="input_container">
+        <label for="email" class="colocar_email">Email <span class="obligatorio">*</span></label>
+        <input type="email" name="introducir_email" id="email" required placeholder="Escribe tu Email">
+      </div>
+
+      <div class="input_container">
+        <label for="telefono" class="colocar_telefono">Teléfono</label>
+        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+      </div>    
+
+      <div class="input_container">
+        <label for="asunto" class="colocar_asunto">Asunto <span class="obligatorio">*</span></label>
+        <input type="text" name="introducir_asunto" id="asunto" required placeholder="Escribe un asunto">
+      </div>    
+
+      <div class="input_container">
+        <label for="mensaje" class="colocar_mensaje">Mensaje <span class="obligatorio">*</span></label>
+        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required placeholder="Deja aquí tu comentario..."></textarea> 
+      </div>
+
+      <button type="submit" name="enviar_formulario" id="enviar_formulario"><p>Enviar</p></button>
+
+      <p class="aviso">
+        <span class="obligatorio"> * </span>Los campos son obligatorios.
+      </p>          
+    </form>
+  </div>  
+</div>
+
+
+
+
+<!-- Site footer -->
+<footer id="footer" class="site-footer">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>Acerca de nosotros</h6>
+            <p class="text-justify">En <i>Cottonmar </i>, somos una agencia líder en publicidad, comprometida con la excelencia creativa y la satisfacción del cliente. Ofrecemos soluciones integrales que van desde estrategias publicitarias hasta campañas multimedios. Nos destacamos por nuestra innovación y ética empresarial sólida. En Cottonmar, estamos dedicados a ayudar a nuestros clientes a alcanzar sus objetivos comerciales.<br> <a href="Cottonmar.com">Cottonmar.com</a> </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Servicios</h6>
+            <ul class="footer-links">
+            <li><a href="./index.html#publicidad">Publicidad Integral</a></li>
+              <li><a href="./index.html#gestion">Gestión Publicitaria</a></li>
+              <li><a href="./index.html#campanas">Campañas Multimedios</a></li>
+              <li><a href="./index.html#artes">Artes Gráficas y Diseño</a></li>
+              <li><a href="./index.html#soluciones">Soluciones de Publicidad y Merchandising</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Acceso rápido</h6>
+            <ul class="footer-links">
+              <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./index.html#about">Acerca de nosotros</a></li>
+              <li><a href="./index.html#services">Servicios</a></li>
+              <li><a href="./index.html#contact_form">Contáctanos</a></li>
+              <!--<li><a href="./index.html">CLABE interbancaria</a></li>-->
+              <li><a href="./index.html#footer">Politicas de privacidad</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2024 Cottonmar  SA de CV. Todos los derechos reservados. 
+            <a href="#">Este sitio web es propiedad de Cottonmar  SA de CV. El contenido de este sitio está protegido por derechos de autor y no puede ser reproducido, distribuido, transmitido ni utilizado, excepto con el permiso previo por escrito de Cottonmar .</a>
+            </p>
+          </div>
+        </div>
+    </div>
+</footer>
+
+<!-- scripts -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script src="./js/script.js"></script>
+
+
+</body>
+</html>
